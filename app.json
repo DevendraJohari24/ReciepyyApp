@@ -1,0 +1,38 @@
+
+
+{
+  "expo": {
+    "name": "Reciepyy",
+    "slug": "foodweb-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/fastFood.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFC54D"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/fastFood.png",
+        "backgroundColor": "#FFC54D"
+      },
+      "package": "com.devendra.reciepyy"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
